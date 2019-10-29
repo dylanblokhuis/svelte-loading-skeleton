@@ -1,7 +1,7 @@
 {
   "name": "svelte-loading-skeleton",
   "description": "Customizable loading skeleton for Svelte",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "dylanblokhuis <dylanblokhuis3@hotmail.com>",
   "repository": {
     "url": "dylanblokhuis/svelte-loading-skeleton",
@@ -37,12 +37,14 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
-    "svelte", "loading", "skeleton", "progress"
+    "svelte",
+    "loading",
+    "skeleton",
+    "progress"
   ],
   "files": [
     "src",
-    "dist/index.mjs",
-    "dist/index.js"
+    "dist"
   ],
   "husky": {
     "hooks": {
